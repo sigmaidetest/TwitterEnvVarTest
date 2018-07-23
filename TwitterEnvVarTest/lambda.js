@@ -18,6 +18,7 @@ exports.handler = function (event, context, callback) {
         "clientName": "twClient"
     }).then(response => {
         let data = response.data;
+        console.log(data);
     }).catch(err => {
         console.log(err);
     });
